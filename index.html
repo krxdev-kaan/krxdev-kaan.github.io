@@ -41,6 +41,10 @@
         .emboss-txt {
             content: "Progressus_8261";
             font-size: 80px;
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            line-height: 1.2;
+            font-weight: 700;
             letter-spacing: 5px;
             position: relative!important;
             text-shadow: 
@@ -59,18 +63,17 @@
             2px 2px 1px rgb(167,167,167),
             2px 3px 1px rgb(167,167,167),
             2px 4px 1px rgb(167,167,167)!important;
-            animation: cycle 1s linear infinite;
         }
-        /*.emboss-txt::after {
+        .emboss-txt::after {
             content: "Progressus_8261";
             font-size: 80px;
-            letter-spacing: 5px;
-            position: absolute!important;
+            position: absolute;
             top:0;
             left:0;
+            margin-left: 63px;
             text-shadow: 0px 0px 100px rgba(11,124,199,0.5);
-            animation: cycle 10s linear infinite;
-        }*/
+            animation: cycle 1s linear infinite;
+        }
         @keyframes cycle {
             0% { text-shadow: 0px 0px 100px rgba(11,124,199,1.0);}
             20% { text-shadow: 0px 0px 100px rgba(168,11,199,1.0);}
@@ -133,7 +136,7 @@
     <div class="container align-center">
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1 fixofmobilecssprog emboss-txt">
+                <h1 class="fixofmobilecssprog emboss-txt">
                     Progressus_8261<br></h1>
                 
                 
